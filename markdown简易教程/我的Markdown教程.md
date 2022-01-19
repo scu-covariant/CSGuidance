@@ -4,13 +4,14 @@
 ## 什么是Markdown
 Markdown是一种轻量级「标记语言」创始人为John Gruber，目前广为程序员群体所使用，现在也逐渐成为国际杂志编辑以及许多写作者都广泛使用的标记语言。
 ![](images/Markdown.png)
+
 **简而言之，Markdown就是通过少量的符号的标记对于纯文本进行排版，实现“易于阅读、易于撰写”的纯文字形式**，本教程就是基于Markdown撰写的。Markdown文件的后缀为`*.md`。
 
 目前像**知乎、博客园、CSDN、Github**等等平台都支持或部分支持了Markdown语法，在这之前如果想在网页中排版需要创作者有良好的HTML基础，而现在则完全不需要了，只要你稍加学习，就可以全身心投入优质内容的创作了。
 ### 它有什么特点
 + 非常轻量
 + 通过键入各种符号进行标记排版，与word的区别在于全程手不用离开键盘就能实现各种格式，比如多级标题、**加粗**、*斜体*、多级列表等等，**非常高效！！！** 可以让作者更关注于内容本身进行高效创作。
-+ 支持内嵌图片、图表、数学公式（$E=mc^2$），带高亮的代码块等等。
++ 支持内嵌图片、图表、数学公式（$E=mc^2$，注：此公式无法在github渲染，请使用vscode或Typora浏览本效果），带高亮的代码块等等。
   + 因为这个特性，所以现在Markdown广泛用于程序文档的编写，或者很常见的`README.md`文件（用于向使用者说明一些事项）的书写
 + 可能看上去非常复杂，但是学习成本很低，只需要1-2h就能完全上手，用来做笔记或者简单记录一些事项都是极为好用的。
 + **进阶：** 实际上Markdown完全支持内嵌HTML语言，如果当你发现日常有单纯通过Markdown语法实现不了的效果，可以通过HTML语言的所有方式实现。这样来说其实Markdown能实现的效果是非常非常多的。比如输出一个红色字体是原生Markdown语法做不到的： <font color=red>我是HTML红色字体。</font>
@@ -21,6 +22,8 @@ Markdown本身是一种规范、一种语法解析格式，不是一个软件。
 这里介绍两个用的很多的编辑器，本文着重介绍后一个，可以都体验一下。
 #### Typora
 + [官网链接](https://www.typora.net/)
+  ![](images/typora.png)
+
 + Typora是一个完整的软件，提供了对于Markdown预览，编辑，导出为PDF等等的支持。以及对于文件夹下一些Markdown文件的管理。
 + 早年间一个比较好用的编辑器，风格简约美观，可以实现所见即所得。
 + 现在**正版收费了！！！** 不过可以找往期不收费的开发版使用。
@@ -28,7 +31,9 @@ Markdown本身是一种规范、一种语法解析格式，不是一个软件。
 + `Visual Studio Code`是微软开发的**轻量级代码编辑器**，它不是一个完整的IDE，本身只具有代码编辑与补全的功能，不具备编译运行功能。
 + 但是可以通过安装插件或配置依赖来支持几乎所有主流编程语言代码的书写、补全与运行。
 + 因为其高度定制化、轻量级、美观好看的特点，在程序员业内广受好评，本文中主要教学如何利用`VS Code`快捷、方便、美观地的编辑`Markdown`文本。设置好了可以实现左侧编辑，右侧预览的方式，是我比较喜欢的编辑方式。
+
 ![](images/vscode的Markdown编辑.png)
+
 ## VS Code配置Markdown环境
 
 ### 安装VS Code
@@ -47,12 +52,15 @@ Markdown本身是一种规范、一种语法解析格式，不是一个软件。
 ### 使用
 + 使用时想进入预览环境，需要在编辑`*.md`文件的界面，右击鼠标打开右键菜单，选择红框框选的功能即可打开分屏编辑并预览界面。
 ![](images/使用预览插件.png)
+
 预览效果如下：
 ![](images/左右分屏预览效果.png)
+
 这样就可以实现左侧编写，右侧预览了。
 ### 导出PDF
 + 如果想要导出PDF，可以在预览界面右击打开右键菜单:
 ![](images/导出为PDF.png)
+
   此处有两种操作方式，分别是：
   1. 选择`Open in Browser`在浏览器中打开本文档，然后在浏览器中右击并选择【打印】,并在打印机中选择【输出为PDF】即可
   2. 第二种是选择`Chrome(Puppeteer) -> PDF`，在安装了Chrome的条件下可以正常运行并在同一路径下输出PDF文件
@@ -160,6 +168,8 @@ print("你的名字是:", name)
 |Matlab| matlab|
 |GO|go|
 ### 公式
+> 本段公式在Github网站不支持渲染，请下载使用typor或使用vscode查看渲染好的公式
+
 公式也是Markdown中一个很重要的技巧，这个公式主要是基于$\LaTeX$语法的，可以很方便的书写复杂的数学公式，是一个一定要学习的技巧和工具。
 
 和代码块一样，公式也分为行内公式和独行公式，分别用一对`$`或一对`$$`实现，行内公式的例子是：$E=mc^2$
@@ -207,12 +217,12 @@ $$
 > Tips: 多级列表和有序列表可以混用的哦，保证缩进即可
 
 ### 文内超链接
-文内链接的通用书写方式是`[]()`其中方括号中是会显示在结果中的文字，而小括号中的则是链接到的目标。比如一个网页链接：
+文内链接的通用书写方式是`[]()`，其中方括号中是会显示在结果中的文字，而小括号中的则是链接到的目标。比如一个网页链接：
 ```
 [百度](www.baidu.com)
 ```
 即可产生：[百度](www.baidu.com)
-+ 注意：这个链接可以以“相对路径”链接到文件，比如我想打开目前文件夹下对应的pdf文件即可通过这个链接：
++ 注意：这个链接可以通过“相对路径”链接到具体文件而非网址，比如我想打开目前文件夹下对应的pdf文件即可通过这个链接：
 ```
 [我的Md教程PDF](我的Markdown教程.pdf)
 ``` 
@@ -220,11 +230,15 @@ $$
 + 如果你使用的是VS Code，那么在你输入了小括号后，在你的VS Code是 **打开文件夹**的前提下，编辑器会给你弹出补全选项，可以很快捷地通过按`tab`来快速补全要链接的文件：
  ![](images/Markdown补全.png)
 
-还有一种链接与具体网址分开的写法：
-`[哔哩哔哩][1]`
-然后在下文随便什么地方写，且此段不会显示在结果中：
-`[1]:https://bilibili.com`
-同样可实现这样的连接，一般用于链接非常冗长繁杂的地方：
+还有一种链接与具体地址分开的写法，其中前一个中括号是超链接的文本，后一个内容是一个“中转值”：
+```
+[哔哩哔哩][1]
+```
+然后在下文随便什么地方写中转到的具体地址内容即可，且此段不会显示在渲染结果中：
+```
+[1]:https://bilibili.com
+```
+由此就得到这样的连接，一般用于链接非常冗长繁杂的地方，保证代码部分的整洁美观：
 [哔哩哔哩][1]
 
 ### 转义字符
@@ -254,24 +268,30 @@ $$
 ### 好看的小按钮
 有很多大佬开发并提供了一些**超级好看！！！** 的图片生成接口，比如本文最开头就使用了一些这个按钮。
 #### Sheilds小图标
-该网站提供了许许多多生成“小盾牌”的接口，其使用方式为通过从**特定格式组织好的网址链接**拉取图片，即可由服务器生成一个图片并传输给你显示，比如生成一个我的邮箱的图标：
++ [Shields官网](https://shields.io)
 
-![EMail](https://img.shields.io/badge/EMail-mxch1122@126.com-blue)
++ 该网站提供了许许多多生成“小盾牌”的接口，其使用方式为通过从**特定格式组织好的网址链接**拉取图片，即可由服务器生成一个图片并传输给你显示，比如生成一个我的邮箱的图标：
 
-同时也可以通过“嵌套”超链接和图片的方式，实现一个可以单击跳转的小图标
+  ![EMail](https://img.shields.io/badge/EMail-mxch1122@126.com-blue)
+
++ 同时也可以通过“嵌套”超链接和图片的方式，实现一个可以单击跳转的小图标
 ，这是一个跳转到我Github主页的图标：
 
-[![Author](https://img.shields.io/badge/作者-晴霾-green?logo=github)](https://github.com/sunnyhaze/) 
+  [![Author](https://img.shields.io/badge/作者-晴霾-green?logo=github)](https://github.com/sunnyhaze/) 
 
-这种图标还可以实现各种与Github数据，或者社交媒体数据的动态互动，比如实时拉取一些指定仓库的特征信息并实时显示更新在这些小按钮上。可以参考我的[一个仓库的`README.md`](https://github.com/SunnyHaze/SCU-Captcha/blob/main/README.md)的使用方式（在Github中单击Raw）可以看源代码，英语好的也可以前往[Shields官网](https://shields.io)学习查看各种API的使用方式。
+  这种图标还可以实现各种与Github数据，或者社交媒体数据的动态互动，比如实时拉取一些指定仓库的特征信息并实时显示更新在这些小按钮上。可以参考我的[一个仓库的`README.md`](https://github.com/SunnyHaze/SCU-Captcha/blob/main/README.md)的使用方式（在Github中单击Raw可以查看渲染效果背后的源代码），英语好的也可以前往[Shields官网](https://shields.io)具体学习查看各种API的使用方式。
 #### Github Readme Stats
 + [Github Readme Stats官网](https://github.com/anuraghazra/github-readme-stats)
 + 这个工具是一个印度的大哥开发的，可以很美观的提供个人`README.md`的数据统计
  ![](images/githubReadmeStats.png)
 + 同时也有代码构成的分析统计
 ![](images/status代码构成统计.png)
-+ 上述显示工具的具体使用方式可以参见官网，也可以参见[我的主页](https://github.com/SunnyHaze/Sunnyhaze)来确定最美观的构建方式。
-+ 此外还提供了一个针对仓库的快捷连接的接口，配置得当挺好看的，可以用于仓库引用的书写：
++ 上述显示工具的具体使用方式可以参见官网，也可以参见[我的主页](https://github.com/SunnyHaze/)来确定最美观的构建方式。
+  + 特别的，这个Github主页是在你个人名下的与你[用户名相同的仓库](https://github.com/Sunnyhaze/Sunnyhaze)，这其中的`README.md`会被github官方直接展示到你的主页封面。即此仓库的作用就是提供个人介绍。
+  + 如果你想创建一个Fashion的readme来介绍自己却又没有创意，可以从这个仓库里寻找灵感：
+      [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=kautukkundan&repo=Awesome-profile-README-templates)](https://github.com/SunnyHaze/scu-captcha) 
+      
++ 上面的仓库连接按钮也是这个API提供的，是针对仓库的快捷链接的接口，配置得当还是挺好看的，可以用于在各种`README.md`中美观地**动态引用**其他仓库：
     [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SunnyHaze&repo=scu-captcha)](https://github.com/SunnyHaze/scu-captcha)
 
 
