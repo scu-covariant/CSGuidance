@@ -3,6 +3,7 @@
 >本文件夹下提供了`我的Markdown教程.md`和`我的Markdown教程.pdf`两个文件。后者完全由前者生成，可以通过观察`.md`文件理解如何实现的`.pdf`中的排版
 ## 什么是Markdown
 Markdown是一种轻量级「标记语言」创始人为John Gruber，目前广为程序员群体所使用，现在也逐渐成为国际杂志编辑以及许多写作者都广泛使用的标记语言。
+
 ![](images/Markdown.png)
 
 **简而言之，Markdown就是通过少量的符号的标记对于纯文本进行排版，实现“易于阅读、易于撰写”的纯文字形式**，本教程就是基于Markdown撰写的。Markdown文件的后缀为`*.md`。
@@ -17,17 +18,31 @@ Markdown是一种轻量级「标记语言」创始人为John Gruber，目前广�
 + **进阶：** 实际上Markdown完全支持内嵌HTML语言，如果当你发现日常有单纯通过Markdown语法实现不了的效果，可以通过HTML语言的所有方式实现。这样来说其实Markdown能实现的效果是非常非常多的。比如输出一个红色字体是原生Markdown语法做不到的： <font color=red>我是HTML红色字体。</font>
   + HTML可以参见其他教程，本文不多赘述 
 ### 常见的Markdown编辑器
-Markdown本身是一种规范、一种语法解析格式，不是一个软件。于是目前存在很多很多不同公司或爱好者开发的Markdown编辑器。需要区分开。
+Markdown本身是一种规范、一种语法解析格式，**而不是一个软件**。于是目前存在很多很多不同公司或爱好者开发的Markdown编辑器，需要明晰这个定义。
+
+特别的，**不同平台基于Markdown规范时，实现的最终渲染格式是存在出入的！！！** 有的平台和软件会少一些功能或效果不一致（比如Github不能渲染公式；亦或是不同平台对于空行的判定不一致，可能会把图片和文字放在同一行，而其他的则自动避免图片和文字在同一行），这也是因为Markdown在设计之初就不希望有极为严格的规范，而是按需实现一些无关紧要的特性。
 
 这里介绍两个用的很多的编辑器，本文着重介绍后一个，可以都体验一下。
 #### Typora
 + [官网链接](https://www.typora.net/)
+  
   ![](images/typora.png)
 
 + Typora是一个完整的软件，提供了对于Markdown预览，编辑，导出为PDF等等的支持。以及对于文件夹下一些Markdown文件的管理。
 + 早年间一个比较好用的编辑器，风格简约美观，可以实现所见即所得。
-+ 现在**正版收费了！！！** 不过可以找往期不收费的开发版使用。
++ 现在**正版收费了！！！** 不过可以采用往期不收费的开发版，链接如下：
+  + 单击即下载的开发版本链接:**0.11.18**
+  [Windows X64](https://download.typora.io/windows/typora-update-x64-1117.exe)
+  [Windows X86](https://download.typora.io/windows/typora-update-ia32-1117.exe)
+  [Linux X64/AMD64 deb](https://download.typora.io/linux/typora_0.11.18_amd64.deb)
+  [macOS](https://download.typora.io/mac/Typora-0.11.18.dmg)
+
+  官方开发版链接:
+  - [macOS](https://typora.io/dev_release.html)
+  - [Windows/Linux-deb](https://typora.io/windows/dev_release.html)
+
 #### 基于Visual Studio Code插件的编辑器
++ [官网链接](https://code.visualstudio.com/)
 + `Visual Studio Code`是微软开发的**轻量级代码编辑器**，它不是一个完整的IDE，本身只具有代码编辑与补全的功能，不具备编译运行功能。
 + 但是可以通过安装插件或配置依赖来支持几乎所有主流编程语言代码的书写、补全与运行。
 + 因为其高度定制化、轻量级、美观好看的特点，在程序员业内广受好评，本文中主要教学如何利用`VS Code`快捷、方便、美观地的编辑`Markdown`文本。设置好了可以实现左侧编辑，右侧预览的方式，是我比较喜欢的编辑方式。
@@ -39,26 +54,33 @@ Markdown本身是一种规范、一种语法解析格式，不是一个软件。
 ### 安装VS Code
 + 前往官网下载安装即可
   + [VS Code官网链接](https://code.visualstudio.com/)
-+ 然后需要注意的是，这个页面的✅尽量全部勾选，可以方便使用时快捷调出VSCode
++ 然后需要注意的是，这个页面的✅**全部勾选**即可，可以方便使用时快捷调出VSCode（图片没有勾选，我会择机在重新安装时截屏一张全部勾选的图替换）
+  
   ![](images/vscode%20安装.png)
+
 + 其余的可以参考网络教程，或者就一路“下一步”到底就行。
 ### 安装Markdown依赖
 + 首先需要安装语法插件和预览插件，在左侧找扩展（4个方块）点进去后在蓝框地方搜索如下两个插件并安装，名称如下：
+  
 ![](images/vscode的markdown插件.png)
+
 + `Markdown All in One`是用于对于markdown语法进行快捷补全与高亮的。
 + `Markdown Preview Enhanced`是帮助你实时预览Markdown成品的。在VSCode的左侧侧边栏的【扩展】内搜索并安装该插件即可。
 > 其余的暂时不用管，VS Code可以安装非常大量的插件，每个都有自己的功能，但是安装的越多，越有可能起冲突，也会带来VS Code启动慢的问题，建议是搞不明白原理的插件尽量就先不要安装 
 + 这样你就完成了所有需要的软件安装。
 ### 使用
 + 使用时想进入预览环境，需要在编辑`*.md`文件的界面，右击鼠标打开右键菜单，选择红框框选的功能即可打开分屏编辑并预览界面。
+  
 ![](images/使用预览插件.png)
 
 预览效果如下：
+
 ![](images/左右分屏预览效果.png)
 
 这样就可以实现左侧编写，右侧预览了。
 ### 导出PDF
 + 如果想要导出PDF，可以在预览界面右击打开右键菜单:
+  
 ![](images/导出为PDF.png)
 
   此处有两种操作方式，分别是：
@@ -228,6 +250,7 @@ $$
 ``` 
 即可产生：[我的Md教程PDF](我的Markdown教程.pdf)
 + 如果你使用的是VS Code，那么在你输入了小括号后，在你的VS Code是 **打开文件夹**的前提下，编辑器会给你弹出补全选项，可以很快捷地通过按`tab`来快速补全要链接的文件：
+  
  ![](images/Markdown补全.png)
 
 还有一种链接与具体地址分开的写法，其中前一个中括号是超链接的文本，后一个内容是一个“中转值”：
@@ -283,9 +306,13 @@ $$
 #### Github Readme Stats
 + [Github Readme Stats官网](https://github.com/anuraghazra/github-readme-stats)
 + 这个工具是一个印度的大哥开发的，可以很美观的提供个人`README.md`的数据统计
+  
  ![](images/githubReadmeStats.png)
+
 + 同时也有代码构成的分析统计
+  
 ![](images/status代码构成统计.png)
+
 + 上述显示工具的具体使用方式可以参见官网，也可以参见[我的主页](https://github.com/SunnyHaze/)来确定最美观的构建方式。
   + 特别的，这个Github主页是在你个人名下的与你[用户名相同的仓库](https://github.com/Sunnyhaze/Sunnyhaze)，这其中的`README.md`会被github官方直接展示到你的主页封面。即此仓库的作用就是提供个人介绍。
   + 如果你想创建一个Fashion的readme来介绍自己却又没有创意，可以从这个仓库里寻找灵感：
