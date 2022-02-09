@@ -6,3 +6,4 @@
 |文章|作者|MD链接|PDF|最后修改|简介|
 |-|-|:-:|:-:|:-:|:-|
 |Markdown简易教程|[![Author](https://img.shields.io/badge/Github-晴霾-blue?logo=github)](https://github.com/sunnyhaze/) |[链接](markdown简易教程/我的Markdown教程.md)|[链接](markdown简易教程/我的Markdown教程.pdf)|2022/01/19|提供了Markdown的简介与语法介绍，同时提供了如何高效利用VS Code编辑Markdown文件|
+|CUDA环境配置教程|[![Author](https://img.shields.io/badge/Github-晴霾-blue?logo=github)](https://github.com/sunnyhaze/) |[链接](CUDA环境配置教程/CUDA环境配置教程.md)|[链接](CUDA环境配置教程/CUDA环境配置教程.pdf)|2022/02/09|简要介绍了CUDA的历史，并提供了CUDA C/C++程序开发或单纯的深度学习支持两种需求的CUDA安装教程|
