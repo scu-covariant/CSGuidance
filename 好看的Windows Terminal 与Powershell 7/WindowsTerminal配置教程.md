@@ -86,7 +86,9 @@
 连字的具体表现形式，因人而异看喜好：
 ![](https://docs.microsoft.com/zh-cn/windows/terminal/images/programming-ligatures.gif)
 
-下载后解压缩，找到文件夹`ttf`下的`CascadiaCodePL.ttf`字体或`CascadiaMonoPL.ttf`字体（看你是否喜欢连字），并安装。其他字体如果喜欢，也可以一并安装。此处不做展开。
+下载后解压缩，找到文件夹`ttf`下的`CascadiaCodePL.ttf`字体或`CascadiaMonoPL.ttf`字体（看你是否喜欢连字），并**双击该字体文件**进行安装。其他字体如果喜欢，也可以一并安装。此处不做展开。
+
+![](images/CascadiaCode压缩包.png)
 
 安装好后，重新打开`Windows Terminal`，在设置的左侧找到`Powershell 7`**<font color=red>（在此处为黑色的Powershell，图标蓝色是版本5，黑色是版本7）</font>**
 
@@ -115,6 +117,8 @@
 
 ### 配置Powershell 7 （重要！）
 使得Powershell变得美观的关键就是安装一系列插件，主要好处在于可以提供对于`Git`仓库的状态概览。以及给你单调的命令行界面提供颜色和风格的美观`PowerLine`。
+
+<font color=red > <b>特别注意！</b></font>既然是提供对于GIT的浏览，该插件是必须**安装GIT**才能不报错，请前往[Git官网](https://git-scm.com/download/win)下载最新版的git以支持本扩展。
 
 使用如下命令在Powershell 7中，在线安装对应插件：
 ```powershell
