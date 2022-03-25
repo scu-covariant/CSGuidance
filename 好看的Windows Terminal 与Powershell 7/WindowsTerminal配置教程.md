@@ -47,7 +47,7 @@
 
 ![](images/powershell安装包.png)
 
-**<font color=red size=5>注意：这一步一定要安装在默认C盘路径，安装在其他路径会导致Terminal找不到Powershell 7 </font>**
+**<font color=red size=5>注意：这一步一定要安装在默认C盘路径，安装在其他路径会导致Windows Terminal找不到Powershell 7 </font>**
 
 按部就班安装就好，这里推荐在中间过程时勾选如下4个：
 
