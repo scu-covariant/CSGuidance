@@ -5,7 +5,9 @@
     &#128568; <a href="https://github.com/scu-covariant">github</a> • 
   </p>
 </div>
-![](imgs/协会标志.png)
+<p align="center">
+  <img src="https://github.com/zhangbihan999/CSGuidance/blob/main/imgs/%E5%8D%8F%E4%BC%9A%E6%A0%87%E5%BF%97.png">
+</p>
 
 本仓库旨在传授刚进入计算机领域的新同学，面临的种种配环境问题，或者通用技术不知道从哪学的困境，尽可能提供一个索引式的教程库，为快速上手入门，降低学习门槛提供帮助。
 
