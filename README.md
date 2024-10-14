@@ -26,6 +26,8 @@ Python是一个强大而灵活的编程语言，特别适合机器学习，这�
 - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/): 对于不想看书、追求速成的同学，这个教程将是不二选择！直接用代码教学，一切尽在注释中！
 - [Python Tutorial](https://www.w3schools.com/python/?ref=bootvar.com): 想系统学习 Python 看这里。详细介绍了 Python 基础知识以及如何用 Python 作图（matplotlib 库的使用）、如何用 Python 操作 MySQL、MongoDB 数据库等。
 
+--------
+
 ### 2. Git
 
 Git 是目前世界上最先进的分布式版本控制系统。作为程序员，日后不可避免地需要进行多人协作开发，Git 提供了一套高效、可靠的方式来管理代码变更历史和版本迭代。它允许开发者在本地进行代码提交、分支创建、代码合并等操作，而不依赖于中央服务器。
