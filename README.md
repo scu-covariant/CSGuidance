@@ -74,7 +74,15 @@ Transformer 是当今最为流行的神经网络模型，ChatGPT 等大模型应
 
 &#128218; 资源：
 
-- [李宏毅：80分钟快速全面了解大型语言模型](https://mp.weixin.qq.com/s/yJJg1Qn_SvK8POQP4GTqwg): 台大李宏毅老师的大语言模型原理科普视频，简单有趣，带你初步揭开大语言模型的神秘面纱！
+- 李宏毅老师合集：
+
+	为什么把李宏毅老师对 Transformer 的介绍单列一个合集出来，因为从我个人看过的所有 AI 教学内容来看，没有人在**把复杂的事情变简单**这件事情上做的比李宏毅老师更好，除了下面列举的 Transformer 相关内容，李宏毅老师在 Youtube 的其他内容也值得观看，绝对精品！
+
+	- [李宏毅：80分钟快速全面了解大型语言模型](https://mp.weixin.qq.com/s/yJJg1Qn_SvK8POQP4GTqwg): **最浅**，但是视角比较宽泛，偏向向0基础人群科普
+	- [【生成式AI導論 2024】第10講：今日的語言模型是如何做文字接龍的 — 淺談Transformer (已經熟悉 Transformer 的同學可略過本講)](https://www.youtube.com/watch?v=uhNsUCb2fJI)：**适中**，看完你能明白，从你输入一个问题到模型给出回答的整个过程中，大模型是如何一步步处理的（tokenize, embedding, 自注意力机制计算相似度, 多头注意力关注多维特征, FFN 整合多维信息等）
+	- [【機器學習2021】Transformer (上)](https://www.youtube.com/watch?v=n9TlOhRjYoc&t=0s)：**最深**，深入了解 encoder 部分
+	- [【機器學習2021】Transformer (下)](https://www.youtube.com/watch?v=N6aRv06iv2g)：**最深**，深入了解 decoder 部分
+
 - [图解 Transformer](https://mp.weixin.qq.com/s?__biz=MzIzMDc2Njc0MQ==&mid=2247484181&idx=1&sn=2436fc57c49dcd904bc0f513b81e8604&chksm=e8af22efdfd8abf9cd7b831840a21d349141ba66f4839e2e6fae2ef2fdc7dd2be370046bbbb9&mpshare=1&scene=1&srcid=0321Lk3ENcUU4g3Djrt8GMW5&sharer_shareinfo=ee33e8994c5af07686d5f3b76fa4e40b&sharer_shareinfo_first=ee33e8994c5af07686d5f3b76fa4e40b&from=industrynews&version=4.1.20.6024&platform=win#rd): 介绍 Transformer 原理的优秀文章
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/): 国外火爆的 Transformer 原理解释文章
 - [Transformer from scratch](https://www.youtube.com/watch?v=QCJQG4DuHT0&list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4): 跟随油管大佬动手复现一个 Transformer，在实现的过程中理解 Transformer 的每个部分，适合那些想通过代码学习而不仅仅是阅读原理文章的同学（实现之后一定会成就感满满！）
