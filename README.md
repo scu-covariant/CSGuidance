@@ -1,3 +1,5 @@
+<img align='right' src="https://github.com/zhangbihan999/CSGuidance/blob/main/imgs/%E5%8D%8F%E4%BC%9A%E6%A0%87%E5%BF%97.png" width=130>
+
 <div align="center">
   <h1>四川大学智锐科创计算机协会资料索引</h1>
   <p align="center">
@@ -5,11 +7,6 @@
     &#128568; <a href="https://github.com/scu-covariant">github</a> • 
   </p>
 </div>
-<p align="center">
-  <img src="https://github.com/zhangbihan999/CSGuidance/blob/main/imgs/%E5%8D%8F%E4%BC%9A%E6%A0%87%E5%BF%97.png"
-    style="width: 50%; height: 50%">
-</p>
-
 
 本仓库由四川大学智锐科创计算机协会维护。旨在为想要学习计算机知识的同学们提供一些优质学习资料索引，避免陷入想做项目但不知道如何找资源、从哪里学起的困境。我们将内容分成了不同的板块，尽可能满足同学们的各种需求。
 
