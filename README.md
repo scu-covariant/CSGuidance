@@ -33,6 +33,7 @@ Git 是目前世界上最先进的分布式版本控制系统。作为程序员�
 
 &#128218; 资源：
 
+- [Git 沙盒——用玩游戏的方式学习 Git !](https://learngitbranching.js.org/): 用玩闯关游戏的方式学习 git！
 - [Git教程 - 廖雪峰的官方网站](https://liaoxuefeng.com/books/git/introduction/index.html): 廖雪峰老师的 Git 教程，品质保证！
 - [Git 和 GitHub 教程——版本控制入门](https://www.freecodecamp.org/chinese/news/git-and-github-for-beginners/): 选自世界最大的编程自学营地 freecodecamp，速成主义者看这里。
 
