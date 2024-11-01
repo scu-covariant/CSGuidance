@@ -39,6 +39,14 @@ Git 是目前世界上最先进的分布式版本控制系统。作为程序员�
 - [Git教程 - 廖雪峰的官方网站](https://liaoxuefeng.com/books/git/introduction/index.html): 廖雪峰老师的 Git 教程，品质保证！
 - [Git 和 GitHub 教程——版本控制入门](https://www.freecodecamp.org/chinese/news/git-and-github-for-beginners/): 选自世界最大的编程自学营地 freecodecamp，速成主义者看这里。
 
+### 3.Docker
+
+Docker 是基于 linux 内核的容器虚拟化技术，可以理解为轻量化、定制化的虚拟机。使用 docker 创建容器作为开发环境，能够确保环境的一致性，从而使得开发环境的迁移更加容易，也能够保证应用程序在任何操作系统上都能够正常运行。
+
+&#128218; 资源：
+
+- [Docker -- 从入门到实践](https://docker-practice.github.io/zh-cn/)
+
 ## &#128187; 机器学习 / 深度学习
 
 - 机器学习 / 深度学习 基础知识：了解线性回归模型、梯度下降、逻辑回归模型、过拟合等基础知识
