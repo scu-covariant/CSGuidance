@@ -92,6 +92,14 @@ Transformer 是当今最为流行的神经网络模型，ChatGPT 等大模型应
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/): 国外火爆的 Transformer 原理解释文章
 - [Transformer from scratch](https://www.youtube.com/watch?v=QCJQG4DuHT0&list=PLTl9hO2Oobd97qfWC40gOSU8C0iu0m2l4): 跟随油管大佬动手复现一个 Transformer，在实现的过程中理解 Transformer 的每个部分，适合那些想通过代码学习而不仅仅是阅读原理文章的同学（实现之后一定会成就感满满！）
 
+## &#129331; AI 应用开发
+
+AI 正逐步成为信息世界的新革命力量，其通过强大的自然语言理解、自然语言生成能力，为开发者提供了新的、更强大的应用开发选择。随着国内外井喷式的 LLM API 服务开放，如何基于 LLM API 快速、便捷地开发具备更强能力、集成 LLM 的应用，开始成为开发者的一项重要技能。
+
+&#128218; 资源：
+
+- [datawhalechina/llm-universe: 面向小白开发者的大模型应用开发教程](https://github.com/datawhalechina/llm-universe): datawhale 出品的较为系统的 AI 应用开发教程，介绍了 RAG 的原理、常用的 AI 应用开发库 langchain 的使用，并分享了两个应用构建案例：个人知识库助手、人情世故大模型 
+
 ## &#127984; 相关仓库推荐
 
 网络上关于计算机的资料整合其实很多，我们推荐的内容只是冰山一角，下面将给出一些很优质的资料仓库，大家可以按需学习。
